@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.fitnesstracker.app-debug-32:/layout_activity_log_workout.xml.flat",
+        "source": "com.example.fitnesstracker.app-main-34:/layout/activity_log_workout.xml"
+    },
+    {
+        "merged": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-debug-32:\\layout_item_workout.xml.flat",
+        "source": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-main-34:\\layout\\item_workout.xml"
+    },
+    {
+        "merged": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-debug-32:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-main-34:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-debug-32:\\layout_activity_log_workout.xml.flat",
+        "source": "C:\\Users\\RASHWELL\\.gradle\\daemon\\8.9\\com.example.fitnesstracker.app-main-34:\\layout\\activity_log_workout.xml"
+    }
+]

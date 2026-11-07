@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="intensity_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_600">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="grey_600">#5F6368</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="calories_hint">Calories burned</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Remove \"%1$s\" from your history?</string>
+    <string name="delete_title">Delete workout?</string>
+    <string name="duration_hint">Duration in minutes</string>
+    <string name="error_calories_positive">Calories must be greater than 0</string>
+    <string name="error_calories_required">Please enter calories burned</string>
+    <string name="error_duration_positive">Duration must be greater than 0</string>
+    <string name="error_duration_required">Please enter a duration</string>
+    <string name="error_numbers">Duration and calories must be numbers</string>
+    <string name="error_save_failed">Could not save the workout, please try again</string>
+    <string name="error_type_required">Please enter a workout type</string>
+    <string name="intensity_label">Intensity</string>
+    <string name="log_workout">Log Workout</string>
+    <string name="no_workouts">No workouts logged yet. Tap Log Workout to add your first one.</string>
+    <string name="recent_workouts">Recent workouts</string>
+    <string name="save_workout">Save Workout</string>
+    <string name="total_calories_label">Total calories burned</string>
+    <string name="total_calories_value">%1$d kcal</string>
+    <string name="total_workouts_label">Workouts logged</string>
+    <string name="total_workouts_value">%1$d</string>
+    <string name="workout_details">%1$d min - %2$d kcal - %3$s</string>
+    <string name="workout_saved">Workout saved</string>
+    <string name="workout_type_hint">Workout type (e.g. Running)</string>
+    <style name="Theme.FitnessTracker" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_100</item>
+        <item name="colorOnPrimaryContainer">@color/green_900</item>
+        <item name="colorSecondary">@color/green_600</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" ns1:targetApi="35">true</item>
+
+        
+        <item name="android:statusBarColor">@color/green_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

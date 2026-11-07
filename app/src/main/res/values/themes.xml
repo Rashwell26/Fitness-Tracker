@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FitnessTracker" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_100</item>
+        <item name="colorOnPrimaryContainer">@color/green_900</item>
+        <item name="colorSecondary">@color/green_600</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!--
+            targetSdk 35 turns on edge-to-edge drawing: the activity content is laid out
+            from the very top of the screen and the app bar is drawn over it, which hid the
+            first field on the Log Workout screen. This keeps the pre-Android-15 behaviour
+            (content starts below the status bar and the app bar) with one attribute.
+            Note: the attribute is ignored by apps that target API 36 and above.
+        -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+
+        <!-- Status bar drawn in the darker green so the white icons stay readable. -->
+        <item name="android:statusBarColor">@color/green_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
